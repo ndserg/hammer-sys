@@ -1,0 +1,139 @@
+{
+  "tabTypes": {
+    "furniture": "furniture",
+    "building": "building",
+    "decor": "decor"
+  },
+  "tabsList": [
+    {
+      "key": "furniture",
+      "tab": "Мебель"
+    },
+    {
+      "key": "building",
+      "tab": "Строительство"
+    },
+    {
+      "key": "decor",
+      "tab": "Декор"
+    }
+  ],
+  "furniture": [
+    {
+      "id": "tr4p",
+      "title": "Круглый Стол на 4 персоны",
+      "img": "/img/sheduler/furniture/table-round-4p.svg",
+      "width": "90",
+      "height": "90"
+    },
+    {
+      "id": "t6p",
+      "title": "Стол на 6 мест",
+      "img": "/img/sheduler/furniture/table-6p.svg",
+      "width": "150",
+      "height": "90"
+    },
+    {
+      "id": "table-2-person",
+      "title": "Стол на 2 персоны",
+      "img": "/img/sheduler/furniture/table-2-person.svg",
+      "width": "124",
+      "height": "48"
+    },
+    {
+      "id": "bar-desk",
+      "title": "Большой стол",
+      "img": "/img/sheduler/furniture/bar-desk.svg",
+      "width": "144",
+      "height": "74"
+    },
+    {
+      "id": "round-table",
+      "title": "Круглый Стол",
+      "img": "/img/sheduler/furniture/round-table.svg",
+      "width": "110",
+      "height": "50"
+    },
+    {
+      "id": "sofa-u-part",
+      "title": "Универсальня часть дивана",
+      "img": "/img/sheduler/furniture/sofa-universal-part.svg",
+      "width": "54",
+      "height": "54"
+    },
+    {
+      "id": "sofa-corner",
+      "title": "Угловая часть дивана",
+      "img": "/img/sheduler/furniture/sofa-corner.svg",
+      "width": "54",
+      "height": "54"
+    }
+  ],
+  "building": [
+    {
+      "id": "door-L",
+      "title": "Левая дверь",
+      "img": "/img/sheduler/buildings/door-left.svg",
+      "width": "80",
+      "height": "80"
+    },
+    {
+      "id": "door-r",
+      "title": "Правая дверь",
+      "img": "/img/sheduler/buildings/door-right.svg",
+      "width": "80",
+      "height": "80"
+    },
+    {
+      "id": "door-twin",
+      "title": "Двойная дверь",
+      "img": "/img/sheduler/buildings/door-twin.svg",
+      "width": "120",
+      "height": "80"
+    },
+    {
+      "id": "window",
+      "title": "Окно",
+      "img": "/img/sheduler/buildings/window.svg",
+      "width": "80",
+      "height": "20"
+    },
+    {
+      "id": "wall-horizontal",
+      "title": "Горизонтальня стена",
+      "img": "/img/sheduler/buildings/wall-horizontal.svg",
+      "width": "180",
+      "height": "20"
+    },
+    {
+      "id": "wall-verical",
+      "title": "Вертикальная стена",
+      "img": "/img/sheduler/buildings/wall-verical.svg",
+      "width": "20",
+      "height": "180"
+    },
+    {
+      "id": "wall-cutout",
+      "title": "Проем в стене",
+      "img": "/img/sheduler/buildings/wall-cutout.svg",
+      "width": "120",
+      "height": "20"
+    }
+  ],
+  "decor": [
+    {
+      "id": "decor-1",
+      "title": "Цветок 1",
+      "img": "/img/sheduler/decor/decor-1.svg",
+      "width": "30",
+      "height": "27"
+    },
+    {
+      "id": "decor-2",
+      "title": "Цветок 2",
+      "img": "/img/sheduler/decor/decor-2.svg",
+      "width": "34",
+      "height": "34"
+    }
+  ]
+}
