@@ -1,4 +1,6 @@
-import fetch from 'auth/FetchInterceptor';
+import httpService from "httpService/htppService";
+
+const clientsEndpoint = '/users';
 
 const addAvatarsToClients = (data) => {
   let clients = null;
@@ -16,10 +18,7 @@ const addAvatarsToClients = (data) => {
 
 const clientsService = {
   getClients: async () => {
-    const data = await fetch({
-      url: '/users',
-      method: 'get',
-    });
+    const data = await httpService.get(clientsEndpoint);
 
     const clients = addAvatarsToClients(data);
 
@@ -28,10 +27,7 @@ const clientsService = {
 
   getClientById: async (id, onSuccess, onError) => {
     try {
-      const data = await fetch({
-        url: `/users/${id}`,
-        method: 'get',
-      });
+      const data = await httpService.get(`${clientsEndpoint}/${id}`);
 
       const client = addAvatarsToClients(data);
 
@@ -42,10 +38,7 @@ const clientsService = {
   },
 
   deleteClient: async (id) => {
-    const data = await fetch({
-      url: '/users',
-      method: 'get',
-    });
+    const data = await httpService.get(`${clientsEndpoint}`);
 
     const filteredClients = data.filter((client) => {
       return client.id !== id
@@ -57,4 +50,4 @@ const clientsService = {
   },
 };
 
-export default clientsService
+export default clientsService;
