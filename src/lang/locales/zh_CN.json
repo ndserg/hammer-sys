@@ -1,5 +1,7 @@
 {
     "home": "主页",
+
+    "sidenav.main": "Main",
     
 	"sidenav.dashboard": "仪表板",
 	"sidenav.dashboard.default": "默认",
@@ -124,5 +126,37 @@
     
     "sidenav.docs": "文件",
 	"sidenav.docs.documentation": "文献资料",
-	"sidenav.docs.changelog": "变更日志"
+	"sidenav.docs.changelog": "变更日志",
+
+    "sidenav.catalog": "Catalog",
+	"sidenav.catalog.products": "Products",
+	"sidenav.catalog.categories": "Categories",
+	"sidenav.catalog.collections": "Collections",
+	"sidenav.catalog.combo": "Combo",
+
+	"sidenav.orders": "Orders",
+
+	"sidenav.clients": "Clients",
+	"sidenav.clients.clientsList": "Clients List",
+	"sidenav.clients.clientsGroup": "Clients Groups",
+
+	"sidenav.banners": "Banners",
+
+	"sidenav.promoCodes": "Promo codes",
+
+	"sidenav.shopsOffline": "Shops Offline",
+	"sidenav.shopsOffline.addresses": "Addresses",
+	"sidenav.shopsOffline.locations": "Locations",
+
+	"sidenav.employees": "Employees",
+
+	"sidenav.mailings": "Mailings",
+
+
+	"sidenav.systems": "Systems",
+	"sidenav.settings": "Settings",
+	"sidenav.mobileApp": "Mobile App",
+	"sidenav.logs": "Logs",
+
+	"sidenav.scheduler": "Sheduler"
 }
