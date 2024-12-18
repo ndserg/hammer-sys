@@ -1,10 +1,9 @@
 import axios from "axios";
-import { API_BASE_URL } from 'configs/AppConfig';
 import { notification } from 'antd';
 import history from '../history';
 
 const http = axios.create({
-  baseURL: API_BASE_URL,
+  baseURL: 'https://jsonplaceholder.typicode.com',
   timeout: 60000
 });
 
